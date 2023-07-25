@@ -13,9 +13,10 @@
     }
 
     body{
-        background:url('../imagens/fundo-madeira.jpg') no-repeat top center;
-        background-size: cover;
+        background:url('../imagens/logo-igreja.jpg') no-repeat top center;
+        background-position: left;
         background-attachment: fixed;
+        background-size: 680px;
     }
 
     main{
@@ -27,8 +28,35 @@
         height: 627px;
         width: 311px;
         position: absolute;
-        transform: translate(-50%, -50%);
+        transform: translate(-10%, -50%);
         top: 50%;
         left:50%;
         background: url('../imagens/frame-iphone.png') no-repeat;
+    }
+
+    iframe#tela{
+        position: relative;
+        top: 80px;
+        left: 20px;
+        height: 471px;
+        width: 266px;
+    }
+
+    section#redes-sociais{
+        text-align: right;
+    }
+
+    section#redes-sociais img{
+        width: 50px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+        box-sizing: border-box;
+    }
+
+    section#redes-sociais img:hover{
+        border: 2px solid rgba(255, 255, 255, 0.753);
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px;
+        transition: 0.3s, border 1s;
     }
